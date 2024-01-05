@@ -1,0 +1,13 @@
+/*Neste arquivo consta todos seletores que tira configuração padrão do navegador 
+ou seja estilos padrões*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*facilita trabalhar com medidas no css*/
+}
+
+ul{
+    list-style: none;
+    
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--linkar a pagina ou html com css-->
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+
+    <title>Velas Aromaticas</title>   
+    <link rel="icon" href="./src/image/inicio.png" type="image/x-icon"> 
+</head>
+
+<body>
+    <!-- colocar classes, usada para estilizar no css -->
+
+    <main class="background"> <!-- pode colocar qualquer nome sua escolha-->
+        <div class="personagem">
+            <img class="imagem" src="./src/image/8.png" alt="">
+            <!--carregar imagem , alt = texto alternativo para informar o que seria a imagem, caso de erro > texto alte-->
+        </div>
+
+        <div class="personagem">
+            <img class="imagem" src="./src/image/6.png" alt="" height="auto">
+            <!--carregar imagem , alt = texto alternativo para informar o que seria a imagem, caso de erro > texto alte-->
+        </div>
+
+        <div class="personagem selecionado">
+            <img class="inicial" src="./src/image/10.png" alt="">
+            <!--carregar imagem , alt = texto alternativo para informar o que seria a imagem, caso de erro > texto alte-->
+         </div>   
+           
+
+        <div class="personagem">
+            <img class="imagem" src="./src/image/7.png" alt="">
+            <!--carregar imagem , alt = texto alternativo para informar o que seria a imagem, caso de erro > texto alte-->
+        </div>
+
+        <div class="personagem">
+            <img class="imagem" src="./src/image/9.png" alt="">
+            <!--carregar imagem , alt = texto alternativo para informar o que seria a imagem, caso de erro > texto alte-->
+        </div>
+    </main>
+
+    <ul class="botoes">
+        <!--tag itens de lista -->
+        <li>
+            <button class="botao" id="InfoLavand"> <!-- tag button -->
+                <img src="./src/image/velaLavanda.png" alt="Botao InfoLava">
+            </button>
+        </li>
+
+        <li>
+            <button class="botao" id="Lavan"> <!-- tag button -->
+                <img src="./src/image/botLavan.png" alt="Botao Lavan">
+            </button>
+        </li>
+
+        <li>
+            <button class="botao selecionado" id="Inicio"> <!-- tag button -->
+                <img src="./src/image/inicio.png" alt="Botao Inicio">
+            </button>
+        </li>
+
+        <li>
+            <button class="botao" id="Vani"> <!-- tag button -->
+                <img src="./src/image/botVani.png" alt="Botao Vanilha">
+            </button>
+        </li>
+
+        <li>
+            <button class="botao" id="InfoVanilha"> <!-- tag button -->
+                <img src="./src/image/velaVanilha.png" alt="Boatao InfoVanilha">
+            </button>
+        </li>
+    </ul>
+
+    <!--linkar JS -->
+    <script src="./src/js/index.js "></script>
+</body>
+</html>
